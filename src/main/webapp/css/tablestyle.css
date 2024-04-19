@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* Définir la couleur de fond pour les th */
+.table th {
+    background-color: #A5DD9B;
+}
+
+/* Ajouter une bordure entre les cellules */
+.table td, .table th {
+    border: 1px solid #A5DD9B;
+}
+
+/* Style supplémentaire pour les liens dans les cellules avec la classe stat-cell */
+.table .stat-cell a {
+    color: #A5DD9B;
+}
+
+/* Changer la couleur du texte des liens au survol */
+.table .stat-cell a:hover {
+    color: #387c3d;
+}
